@@ -1,0 +1,2136 @@
+{
+  "analysis_metadata": {
+    "analysis_type": "FDR Corrected OLS Regression",
+    "fdr_enabled": true,
+    "heteroskedasticity_test_enabled": true,
+    "reset_test_enabled": true,
+    "spatial_analysis_enabled": true,
+    "spatial_models_enabled": true,
+    "fdr_method": "fdr_bh",
+    "alpha_level": 0.05,
+    "label_type": "C"
+  },
+  "significant_relationships": [
+    {
+      "heatmap_position": [
+        "C1",
+        "D2"
+      ],
+      "dependent_variable": "Disease Knowledge and Transmission Discussion",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "coefficient": 0.6353,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0
+    },
+    {
+      "heatmap_position": [
+        "C1",
+        "D3"
+      ],
+      "dependent_variable": "Disease Knowledge and Transmission Discussion",
+      "independent_variable": "Gender Ratio (2020)",
+      "coefficient": 0.4798,
+      "original_p_value": 0.0015,
+      "fdr_q_value": 0.0052
+    },
+    {
+      "heatmap_position": [
+        "C1",
+        "D4"
+      ],
+      "dependent_variable": "Disease Knowledge and Transmission Discussion",
+      "independent_variable": "Life Expectancy (2020)",
+      "coefficient": 0.4983,
+      "original_p_value": 0.0064,
+      "fdr_q_value": 0.0177
+    },
+    {
+      "heatmap_position": [
+        "C2",
+        "D2"
+      ],
+      "dependent_variable": "Humor, Banter and Ironic Expression",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "coefficient": 0.4147,
+      "original_p_value": 0.0092,
+      "fdr_q_value": 0.0221
+    },
+    {
+      "heatmap_position": [
+        "C3",
+        "D2"
+      ],
+      "dependent_variable": "Information Sources and Credibility Discussion",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "coefficient": 0.4339,
+      "original_p_value": 0.0047,
+      "fdr_q_value": 0.0141
+    },
+    {
+      "heatmap_position": [
+        "C4",
+        "D2"
+      ],
+      "dependent_variable": "Moral Judgment and Attribution of Blame",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "coefficient": 0.511,
+      "original_p_value": 0.0001,
+      "fdr_q_value": 0.0003
+    },
+    {
+      "heatmap_position": [
+        "C4",
+        "D3"
+      ],
+      "dependent_variable": "Moral Judgment and Attribution of Blame",
+      "independent_variable": "Gender Ratio (2020)",
+      "coefficient": 0.4787,
+      "original_p_value": 0.0002,
+      "fdr_q_value": 0.0007
+    },
+    {
+      "heatmap_position": [
+        "C5",
+        "D3"
+      ],
+      "dependent_variable": "Personal Experience and Current Situation Sharing",
+      "independent_variable": "Gender Ratio (2020)",
+      "coefficient": 0.6838,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0
+    },
+    {
+      "heatmap_position": [
+        "C5",
+        "D4"
+      ],
+      "dependent_variable": "Personal Experience and Current Situation Sharing",
+      "independent_variable": "Life Expectancy (2020)",
+      "coefficient": 0.2253,
+      "original_p_value": 0.0076,
+      "fdr_q_value": 0.0195
+    },
+    {
+      "heatmap_position": [
+        "C6",
+        "D3"
+      ],
+      "dependent_variable": "Risk Underestimation and Cognitive Bias",
+      "independent_variable": "Gender Ratio (2020)",
+      "coefficient": 0.5332,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0
+    },
+    {
+      "heatmap_position": [
+        "C6",
+        "D4"
+      ],
+      "dependent_variable": "Risk Underestimation and Cognitive Bias",
+      "independent_variable": "Life Expectancy (2020)",
+      "coefficient": 0.4029,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0002
+    },
+    {
+      "heatmap_position": [
+        "C7",
+        "D2"
+      ],
+      "dependent_variable": "Social Impact and Public Issue Discussion",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "coefficient": 0.6245,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0002
+    },
+    {
+      "heatmap_position": [
+        "C8",
+        "D2"
+      ],
+      "dependent_variable": "Support, Encouragement and Humanitarian Care",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "coefficient": 0.5018,
+      "original_p_value": 0.0035,
+      "fdr_q_value": 0.0115
+    },
+    {
+      "heatmap_position": [
+        "C9",
+        "D3"
+      ],
+      "dependent_variable": "Worry, Fear and Anxiety Emotions",
+      "independent_variable": "Gender Ratio (2020)",
+      "coefficient": 0.486,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0
+    },
+    {
+      "heatmap_position": [
+        "C9",
+        "D4"
+      ],
+      "dependent_variable": "Worry, Fear and Anxiety Emotions",
+      "independent_variable": "Life Expectancy (2020)",
+      "coefficient": 0.4201,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0
+    }
+  ],
+  "summary": {
+    "total_tests": 36,
+    "significant_relationships": 15,
+    "average_r_squared": 0.6625
+  },
+  "effect_sizes_summary": {
+    "methodology": {
+      "cohens_f2": {
+        "formula": "f² = R² / (1 − R²)",
+        "thresholds": {
+          "small": 0.02,
+          "medium": 0.15,
+          "large": 0.35
+        },
+        "interpretation": "模型整体解释力，f²越大说明自变量集对因变量的解释力越强",
+        "reference": "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences (2nd ed.)."
+      },
+      "partial_eta_squared": {
+        "formula": "η²_p = t² / (t² + df_resid)",
+        "thresholds": {
+          "small": 0.01,
+          "medium": 0.06,
+          "large": 0.14
+        },
+        "interpretation": "单个预测变量的独立解释力，控制其他变量后该变量能解释的方差比例",
+        "reference": "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences (2nd ed.)."
+      }
+    },
+    "model_level_effect_sizes": {
+      "Disease Knowledge and Transmission Discussion": {
+        "r_squared": 0.7896,
+        "cohens_f2": 3.7537,
+        "interpretation": "Large"
+      },
+      "Humor, Banter and Ironic Expression": {
+        "r_squared": 0.4696,
+        "cohens_f2": 0.8853,
+        "interpretation": "Large"
+      },
+      "Information Sources and Credibility Discussion": {
+        "r_squared": 0.5198,
+        "cohens_f2": 1.0824,
+        "interpretation": "Large"
+      },
+      "Moral Judgment and Attribution of Blame": {
+        "r_squared": 0.7067,
+        "cohens_f2": 2.4098,
+        "interpretation": "Large"
+      },
+      "Personal Experience and Current Situation Sharing": {
+        "r_squared": 0.8424,
+        "cohens_f2": 5.3444,
+        "interpretation": "Large"
+      },
+      "Risk Underestimation and Cognitive Bias": {
+        "r_squared": 0.7987,
+        "cohens_f2": 3.9684,
+        "interpretation": "Large"
+      },
+      "Social Impact and Public Issue Discussion": {
+        "r_squared": 0.6043,
+        "cohens_f2": 1.527,
+        "interpretation": "Large"
+      },
+      "Support, Encouragement and Humanitarian Care": {
+        "r_squared": 0.4031,
+        "cohens_f2": 0.6754,
+        "interpretation": "Large"
+      },
+      "Worry, Fear and Anxiety Emotions": {
+        "r_squared": 0.828,
+        "cohens_f2": 4.8148,
+        "interpretation": "Large"
+      }
+    },
+    "predictor_level_effect_sizes": [
+      {
+        "dependent_variable": "Disease Knowledge and Transmission Discussion",
+        "independent_variable": "HIV Incidence Rate (2020)",
+        "coefficient": 0.6353,
+        "t_value": 8.0401,
+        "partial_eta_squared": 0.7132,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Disease Knowledge and Transmission Discussion",
+        "independent_variable": "Gender Ratio (2020)",
+        "coefficient": 0.4798,
+        "t_value": 3.5604,
+        "partial_eta_squared": 0.3278,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Disease Knowledge and Transmission Discussion",
+        "independent_variable": "Life Expectancy (2020)",
+        "coefficient": 0.4983,
+        "t_value": 2.9669,
+        "partial_eta_squared": 0.2529,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Humor, Banter and Ironic Expression",
+        "independent_variable": "HIV Incidence Rate (2020)",
+        "coefficient": 0.4147,
+        "t_value": 2.8129,
+        "partial_eta_squared": 0.2333,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Information Sources and Credibility Discussion",
+        "independent_variable": "HIV Incidence Rate (2020)",
+        "coefficient": 0.4339,
+        "t_value": 3.0934,
+        "partial_eta_squared": 0.269,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Moral Judgment and Attribution of Blame",
+        "independent_variable": "HIV Incidence Rate (2020)",
+        "coefficient": 0.511,
+        "t_value": 4.7635,
+        "partial_eta_squared": 0.466,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Moral Judgment and Attribution of Blame",
+        "independent_variable": "Gender Ratio (2020)",
+        "coefficient": 0.4787,
+        "t_value": 4.4014,
+        "partial_eta_squared": 0.427,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Personal Experience and Current Situation Sharing",
+        "independent_variable": "Gender Ratio (2020)",
+        "coefficient": 0.6838,
+        "t_value": 7.9487,
+        "partial_eta_squared": 0.7085,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Personal Experience and Current Situation Sharing",
+        "independent_variable": "Life Expectancy (2020)",
+        "coefficient": 0.2253,
+        "t_value": 2.6697,
+        "partial_eta_squared": 0.2151,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Risk Underestimation and Cognitive Bias",
+        "independent_variable": "Gender Ratio (2020)",
+        "coefficient": 0.5332,
+        "t_value": 5.7002,
+        "partial_eta_squared": 0.5555,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Risk Underestimation and Cognitive Bias",
+        "independent_variable": "Life Expectancy (2020)",
+        "coefficient": 0.4029,
+        "t_value": 4.195,
+        "partial_eta_squared": 0.4036,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Social Impact and Public Issue Discussion",
+        "independent_variable": "HIV Incidence Rate (2020)",
+        "coefficient": 0.6245,
+        "t_value": 4.9047,
+        "partial_eta_squared": 0.4806,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Support, Encouragement and Humanitarian Care",
+        "independent_variable": "HIV Incidence Rate (2020)",
+        "coefficient": 0.5018,
+        "t_value": 3.2091,
+        "partial_eta_squared": 0.2837,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Worry, Fear and Anxiety Emotions",
+        "independent_variable": "Gender Ratio (2020)",
+        "coefficient": 0.486,
+        "t_value": 5.4092,
+        "partial_eta_squared": 0.5295,
+        "interpretation": "Large (≥0.14)"
+      },
+      {
+        "dependent_variable": "Worry, Fear and Anxiety Emotions",
+        "independent_variable": "Life Expectancy (2020)",
+        "coefficient": 0.4201,
+        "t_value": 4.6938,
+        "partial_eta_squared": 0.4587,
+        "interpretation": "Large (≥0.14)"
+      }
+    ]
+  },
+  "model_performance": {
+    "Disease Knowledge and Transmission Discussion": {
+      "r_squared": 0.7896,
+      "cohens_f2": 3.7537,
+      "cohens_f2_interpretation": "Large (≥0.35)"
+    },
+    "Humor, Banter and Ironic Expression": {
+      "r_squared": 0.4696,
+      "cohens_f2": 0.8853,
+      "cohens_f2_interpretation": "Large (≥0.35)"
+    },
+    "Information Sources and Credibility Discussion": {
+      "r_squared": 0.5198,
+      "cohens_f2": 1.0824,
+      "cohens_f2_interpretation": "Large (≥0.35)"
+    },
+    "Moral Judgment and Attribution of Blame": {
+      "r_squared": 0.7067,
+      "cohens_f2": 2.4098,
+      "cohens_f2_interpretation": "Large (≥0.35)"
+    },
+    "Personal Experience and Current Situation Sharing": {
+      "r_squared": 0.8424,
+      "cohens_f2": 5.3444,
+      "cohens_f2_interpretation": "Large (≥0.35)"
+    },
+    "Risk Underestimation and Cognitive Bias": {
+      "r_squared": 0.7987,
+      "cohens_f2": 3.9684,
+      "cohens_f2_interpretation": "Large (≥0.35)"
+    },
+    "Social Impact and Public Issue Discussion": {
+      "r_squared": 0.6043,
+      "cohens_f2": 1.527,
+      "cohens_f2_interpretation": "Large (≥0.35)"
+    },
+    "Support, Encouragement and Humanitarian Care": {
+      "r_squared": 0.4031,
+      "cohens_f2": 0.6754,
+      "cohens_f2_interpretation": "Large (≥0.35)"
+    },
+    "Worry, Fear and Anxiety Emotions": {
+      "r_squared": 0.828,
+      "cohens_f2": 4.8148,
+      "cohens_f2_interpretation": "Large (≥0.35)"
+    }
+  },
+  "spatial_autocorrelation": {
+    "summary": {
+      "total_variables_tested": 9,
+      "significant_original_autocorrelation": 7,
+      "significant_residual_autocorrelation": 1,
+      "spatial_models_effective": 7
+    },
+    "detailed_results": {
+      "Disease Knowledge and Transmission Discussion": {
+        "original_data": {
+          "morans_I": 0.3898,
+          "p_value": 0.001,
+          "z_score": 3.749,
+          "expected_I": -0.0333,
+          "interpretation": "Strong positive spatial clustering"
+        },
+        "selected_model": "OLS",
+        "residual_diagnostics": {
+          "morans_I": 0.1045,
+          "p_value": 0.109,
+          "interpretation": "No significant spatial autocorrelation",
+          "spatial_control_improvement": 0.2852
+        }
+      },
+      "Humor, Banter and Ironic Expression": {
+        "original_data": {
+          "morans_I": 0.2427,
+          "p_value": 0.017,
+          "z_score": 2.4396,
+          "expected_I": -0.0333,
+          "interpretation": "Moderate positive spatial clustering"
+        },
+        "selected_model": "OLS",
+        "residual_diagnostics": {
+          "morans_I": 0.0323,
+          "p_value": 0.246,
+          "interpretation": "No significant spatial autocorrelation",
+          "spatial_control_improvement": 0.2105
+        }
+      },
+      "Information Sources and Credibility Discussion": {
+        "original_data": {
+          "morans_I": 0.1652,
+          "p_value": 0.051,
+          "z_score": 1.6772,
+          "expected_I": -0.0333,
+          "interpretation": "No significant spatial autocorrelation"
+        },
+        "selected_model": "OLS",
+        "residual_diagnostics": {
+          "morans_I": -0.0786,
+          "p_value": 0.387,
+          "interpretation": "No significant spatial autocorrelation",
+          "spatial_control_improvement": 0.0866
+        }
+      },
+      "Moral Judgment and Attribution of Blame": {
+        "original_data": {
+          "morans_I": 0.3782,
+          "p_value": 0.002,
+          "z_score": 3.5416,
+          "expected_I": -0.0333,
+          "interpretation": "Strong positive spatial clustering"
+        },
+        "selected_model": "OLS",
+        "residual_diagnostics": {
+          "morans_I": 0.0849,
+          "p_value": 0.138,
+          "interpretation": "No significant spatial autocorrelation",
+          "spatial_control_improvement": 0.2933
+        }
+      },
+      "Personal Experience and Current Situation Sharing": {
+        "original_data": {
+          "morans_I": 0.4981,
+          "p_value": 0.001,
+          "z_score": 4.5538,
+          "expected_I": -0.0333,
+          "interpretation": "Strong positive spatial clustering"
+        },
+        "selected_model": "Spatial Lag",
+        "residual_diagnostics": {
+          "morans_I": 0.2175,
+          "p_value": 0.029,
+          "interpretation": "Moderate positive spatial clustering",
+          "spatial_control_improvement": 0.2806
+        }
+      },
+      "Risk Underestimation and Cognitive Bias": {
+        "original_data": {
+          "morans_I": 0.4972,
+          "p_value": 0.001,
+          "z_score": 4.5934,
+          "expected_I": -0.0333,
+          "interpretation": "Strong positive spatial clustering"
+        },
+        "selected_model": "Spatial Lag",
+        "residual_diagnostics": {
+          "morans_I": -0.1775,
+          "p_value": 0.095,
+          "interpretation": "No significant spatial autocorrelation",
+          "spatial_control_improvement": 0.3197
+        }
+      },
+      "Social Impact and Public Issue Discussion": {
+        "original_data": {
+          "morans_I": 0.2731,
+          "p_value": 0.013,
+          "z_score": 2.5956,
+          "expected_I": -0.0333,
+          "interpretation": "Moderate positive spatial clustering"
+        },
+        "selected_model": "OLS",
+        "residual_diagnostics": {
+          "morans_I": 0.0016,
+          "p_value": 0.368,
+          "interpretation": "No significant spatial autocorrelation",
+          "spatial_control_improvement": 0.2716
+        }
+      },
+      "Support, Encouragement and Humanitarian Care": {
+        "original_data": {
+          "morans_I": 0.0385,
+          "p_value": 0.253,
+          "z_score": 0.654,
+          "expected_I": -0.0333,
+          "interpretation": "No significant spatial autocorrelation"
+        },
+        "selected_model": "OLS",
+        "residual_diagnostics": {
+          "morans_I": -0.011,
+          "p_value": 0.373,
+          "interpretation": "No significant spatial autocorrelation",
+          "spatial_control_improvement": 0.0276
+        }
+      },
+      "Worry, Fear and Anxiety Emotions": {
+        "original_data": {
+          "morans_I": 0.5934,
+          "p_value": 0.001,
+          "z_score": 5.2286,
+          "expected_I": -0.0333,
+          "interpretation": "Strong positive spatial clustering"
+        },
+        "selected_model": "Spatial Lag",
+        "residual_diagnostics": {
+          "morans_I": -0.0477,
+          "p_value": 0.462,
+          "interpretation": "No significant spatial autocorrelation",
+          "spatial_control_improvement": 0.5456
+        }
+      }
+    }
+  },
+  "spatial_regression_summary": {
+    "model_selection_summary": {
+      "total_topics_tested": 9,
+      "topics_with_spatial_models": 3,
+      "model_type_distribution": {
+        "Spatial Lag": 3,
+        "Spatial Error": 0,
+        "Spatial Durbin": 0
+      }
+    },
+    "lr_test_summary": {
+      "total_lr_tests_conducted": 6,
+      "sdm_vs_slm_rejections": 0,
+      "sdm_vs_sem_rejections": 0
+    },
+    "lr_test_details": {
+      "Personal Experience and Current Situation Sharing": {
+        "SDM_vs_SLM": {
+          "LR_statistic": 4.3217,
+          "degrees_of_freedom": 4,
+          "p_value": 0.3642,
+          "reject_simplification": false,
+          "interpretation": "SLM充分，可退化"
+        },
+        "SDM_vs_SEM": {
+          "LR_statistic": 6.6259,
+          "degrees_of_freedom": 5,
+          "p_value": 0.25,
+          "reject_simplification": false,
+          "interpretation": "SEM充分，可退化"
+        }
+      },
+      "Risk Underestimation and Cognitive Bias": {
+        "SDM_vs_SLM": {
+          "LR_statistic": 1.5812,
+          "degrees_of_freedom": 4,
+          "p_value": 0.8122,
+          "reject_simplification": false,
+          "interpretation": "SLM充分，可退化"
+        },
+        "SDM_vs_SEM": {
+          "LR_statistic": 4.9777,
+          "degrees_of_freedom": 5,
+          "p_value": 0.4186,
+          "reject_simplification": false,
+          "interpretation": "SEM充分，可退化"
+        }
+      },
+      "Worry, Fear and Anxiety Emotions": {
+        "SDM_vs_SLM": {
+          "LR_statistic": 4.5572,
+          "degrees_of_freedom": 4,
+          "p_value": 0.3358,
+          "reject_simplification": false,
+          "interpretation": "SLM充分，可退化"
+        },
+        "SDM_vs_SEM": {
+          "LR_statistic": 9.2098,
+          "degrees_of_freedom": 5,
+          "p_value": 0.101,
+          "reject_simplification": false,
+          "interpretation": "SEM充分，可退化"
+        }
+      }
+    },
+    "spatial_lag_count": 3,
+    "spatial_error_count": 0,
+    "spatial_durbin_count": 0
+  },
+  "detailed_results": [
+    {
+      "dependent_variable": "Disease Knowledge and Transmission Discussion",
+      "independent_variable": "ln(GDP per capita (2023))",
+      "heatmap_position": [
+        "C1",
+        "D1"
+      ],
+      "coefficient": 0.0449,
+      "standard_error": 0.2107,
+      "confidence_interval": {
+        "lower": -0.3881,
+        "upper": 0.4779
+      },
+      "t_value": 0.2132,
+      "p_value": 0.8818,
+      "original_p_value": 0.8328,
+      "fdr_q_value": 0.8818,
+      "significant": false,
+      "robust_se_used": true,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.3898,
+        "original_moran_p": 0.001,
+        "residual_morans_I": 0.1045,
+        "residual_moran_p": 0.109,
+        "spatial_control_improvement": 0.2852
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0017,
+        "partial_eta_squared_interpretation": "Negligible (<0.01)",
+        "cohens_f2": 3.7537,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Disease Knowledge and Transmission Discussion",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "heatmap_position": [
+        "C1",
+        "D2"
+      ],
+      "coefficient": 0.6353,
+      "standard_error": 0.079,
+      "confidence_interval": {
+        "lower": 0.4729,
+        "upper": 0.7977
+      },
+      "t_value": 8.0401,
+      "p_value": 0.0,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0,
+      "significant": true,
+      "robust_se_used": true,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.3898,
+        "original_moran_p": 0.001,
+        "residual_morans_I": 0.1045,
+        "residual_moran_p": 0.109,
+        "spatial_control_improvement": 0.2852
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.7132,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 3.7537,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Disease Knowledge and Transmission Discussion",
+      "independent_variable": "Gender Ratio (2020)",
+      "heatmap_position": [
+        "C1",
+        "D3"
+      ],
+      "coefficient": 0.4798,
+      "standard_error": 0.1347,
+      "confidence_interval": {
+        "lower": 0.2028,
+        "upper": 0.7567
+      },
+      "t_value": 3.5604,
+      "p_value": 0.0052,
+      "original_p_value": 0.0015,
+      "fdr_q_value": 0.0052,
+      "significant": true,
+      "robust_se_used": true,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.3898,
+        "original_moran_p": 0.001,
+        "residual_morans_I": 0.1045,
+        "residual_moran_p": 0.109,
+        "spatial_control_improvement": 0.2852
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.3278,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 3.7537,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Disease Knowledge and Transmission Discussion",
+      "independent_variable": "Life Expectancy (2020)",
+      "heatmap_position": [
+        "C1",
+        "D4"
+      ],
+      "coefficient": 0.4983,
+      "standard_error": 0.168,
+      "confidence_interval": {
+        "lower": 0.1531,
+        "upper": 0.8436
+      },
+      "t_value": 2.9669,
+      "p_value": 0.0177,
+      "original_p_value": 0.0064,
+      "fdr_q_value": 0.0177,
+      "significant": true,
+      "robust_se_used": true,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.3898,
+        "original_moran_p": 0.001,
+        "residual_morans_I": 0.1045,
+        "residual_moran_p": 0.109,
+        "spatial_control_improvement": 0.2852
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.2529,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 3.7537,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Humor, Banter and Ironic Expression",
+      "independent_variable": "ln(GDP per capita (2023))",
+      "heatmap_position": [
+        "C2",
+        "D1"
+      ],
+      "coefficient": 0.1468,
+      "standard_error": 0.2254,
+      "confidence_interval": {
+        "lower": -0.3165,
+        "upper": 0.6102
+      },
+      "t_value": 0.6513,
+      "p_value": 0.6045,
+      "original_p_value": 0.5206,
+      "fdr_q_value": 0.6045,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.2427,
+        "original_moran_p": 0.017,
+        "residual_morans_I": 0.0323,
+        "residual_moran_p": 0.246,
+        "spatial_control_improvement": 0.2105
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0161,
+        "partial_eta_squared_interpretation": "Small (≥0.01)",
+        "cohens_f2": 0.8853,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Humor, Banter and Ironic Expression",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "heatmap_position": [
+        "C2",
+        "D2"
+      ],
+      "coefficient": 0.4147,
+      "standard_error": 0.1474,
+      "confidence_interval": {
+        "lower": 0.1117,
+        "upper": 0.7177
+      },
+      "t_value": 2.8129,
+      "p_value": 0.0221,
+      "original_p_value": 0.0092,
+      "fdr_q_value": 0.0221,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.2427,
+        "original_moran_p": 0.017,
+        "residual_morans_I": 0.0323,
+        "residual_moran_p": 0.246,
+        "spatial_control_improvement": 0.2105
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.2333,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 0.8853,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Humor, Banter and Ironic Expression",
+      "independent_variable": "Gender Ratio (2020)",
+      "heatmap_position": [
+        "C2",
+        "D3"
+      ],
+      "coefficient": 0.1863,
+      "standard_error": 0.1569,
+      "confidence_interval": {
+        "lower": -0.1362,
+        "upper": 0.5087
+      },
+      "t_value": 1.1874,
+      "p_value": 0.354,
+      "original_p_value": 0.2458,
+      "fdr_q_value": 0.354,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.2427,
+        "original_moran_p": 0.017,
+        "residual_morans_I": 0.0323,
+        "residual_moran_p": 0.246,
+        "spatial_control_improvement": 0.2105
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0514,
+        "partial_eta_squared_interpretation": "Small (≥0.01)",
+        "cohens_f2": 0.8853,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Humor, Banter and Ironic Expression",
+      "independent_variable": "Life Expectancy (2020)",
+      "heatmap_position": [
+        "C2",
+        "D4"
+      ],
+      "coefficient": 0.476,
+      "standard_error": 0.2129,
+      "confidence_interval": {
+        "lower": 0.0384,
+        "upper": 0.9136
+      },
+      "t_value": 2.2359,
+      "p_value": 0.0723,
+      "original_p_value": 0.0342,
+      "fdr_q_value": 0.0723,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.2427,
+        "original_moran_p": 0.017,
+        "residual_morans_I": 0.0323,
+        "residual_moran_p": 0.246,
+        "spatial_control_improvement": 0.2105
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.1613,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 0.8853,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Information Sources and Credibility Discussion",
+      "independent_variable": "ln(GDP per capita (2023))",
+      "heatmap_position": [
+        "C3",
+        "D1"
+      ],
+      "coefficient": 0.3262,
+      "standard_error": 0.2145,
+      "confidence_interval": {
+        "lower": -0.1147,
+        "upper": 0.7671
+      },
+      "t_value": 1.5208,
+      "p_value": 0.2297,
+      "original_p_value": 0.1404,
+      "fdr_q_value": 0.2297,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.1652,
+        "original_moran_p": 0.051,
+        "residual_morans_I": -0.0786,
+        "residual_moran_p": 0.387,
+        "spatial_control_improvement": 0.0866
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0817,
+        "partial_eta_squared_interpretation": "Medium (≥0.06)",
+        "cohens_f2": 1.0824,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Information Sources and Credibility Discussion",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "heatmap_position": [
+        "C3",
+        "D2"
+      ],
+      "coefficient": 0.4339,
+      "standard_error": 0.1403,
+      "confidence_interval": {
+        "lower": 0.1456,
+        "upper": 0.7223
+      },
+      "t_value": 3.0934,
+      "p_value": 0.0141,
+      "original_p_value": 0.0047,
+      "fdr_q_value": 0.0141,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.1652,
+        "original_moran_p": 0.051,
+        "residual_morans_I": -0.0786,
+        "residual_moran_p": 0.387,
+        "spatial_control_improvement": 0.0866
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.269,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 1.0824,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Information Sources and Credibility Discussion",
+      "independent_variable": "Gender Ratio (2020)",
+      "heatmap_position": [
+        "C3",
+        "D3"
+      ],
+      "coefficient": 0.3271,
+      "standard_error": 0.1493,
+      "confidence_interval": {
+        "lower": 0.0203,
+        "upper": 0.634
+      },
+      "t_value": 2.1917,
+      "p_value": 0.0751,
+      "original_p_value": 0.0376,
+      "fdr_q_value": 0.0751,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.1652,
+        "original_moran_p": 0.051,
+        "residual_morans_I": -0.0786,
+        "residual_moran_p": 0.387,
+        "spatial_control_improvement": 0.0866
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.1559,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 1.0824,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Information Sources and Credibility Discussion",
+      "independent_variable": "Life Expectancy (2020)",
+      "heatmap_position": [
+        "C3",
+        "D4"
+      ],
+      "coefficient": 0.2427,
+      "standard_error": 0.2026,
+      "confidence_interval": {
+        "lower": -0.1736,
+        "upper": 0.6591
+      },
+      "t_value": 1.1983,
+      "p_value": 0.354,
+      "original_p_value": 0.2416,
+      "fdr_q_value": 0.354,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.1652,
+        "original_moran_p": 0.051,
+        "residual_morans_I": -0.0786,
+        "residual_moran_p": 0.387,
+        "spatial_control_improvement": 0.0866
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0523,
+        "partial_eta_squared_interpretation": "Small (≥0.01)",
+        "cohens_f2": 1.0824,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Moral Judgment and Attribution of Blame",
+      "independent_variable": "ln(GDP per capita (2023))",
+      "heatmap_position": [
+        "C4",
+        "D1"
+      ],
+      "coefficient": 0.1911,
+      "standard_error": 0.207,
+      "confidence_interval": {
+        "lower": -0.2343,
+        "upper": 0.6166
+      },
+      "t_value": 0.9234,
+      "p_value": 0.4522,
+      "original_p_value": 0.3643,
+      "fdr_q_value": 0.4522,
+      "significant": false,
+      "robust_se_used": true,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.3782,
+        "original_moran_p": 0.002,
+        "residual_morans_I": 0.0849,
+        "residual_moran_p": 0.138,
+        "spatial_control_improvement": 0.2933
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0318,
+        "partial_eta_squared_interpretation": "Small (≥0.01)",
+        "cohens_f2": 2.4098,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Moral Judgment and Attribution of Blame",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "heatmap_position": [
+        "C4",
+        "D2"
+      ],
+      "coefficient": 0.511,
+      "standard_error": 0.1073,
+      "confidence_interval": {
+        "lower": 0.2905,
+        "upper": 0.7315
+      },
+      "t_value": 4.7635,
+      "p_value": 0.0003,
+      "original_p_value": 0.0001,
+      "fdr_q_value": 0.0003,
+      "significant": true,
+      "robust_se_used": true,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.3782,
+        "original_moran_p": 0.002,
+        "residual_morans_I": 0.0849,
+        "residual_moran_p": 0.138,
+        "spatial_control_improvement": 0.2933
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.466,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 2.4098,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Moral Judgment and Attribution of Blame",
+      "independent_variable": "Gender Ratio (2020)",
+      "heatmap_position": [
+        "C4",
+        "D3"
+      ],
+      "coefficient": 0.4787,
+      "standard_error": 0.1088,
+      "confidence_interval": {
+        "lower": 0.2551,
+        "upper": 0.7023
+      },
+      "t_value": 4.4014,
+      "p_value": 0.0007,
+      "original_p_value": 0.0002,
+      "fdr_q_value": 0.0007,
+      "significant": true,
+      "robust_se_used": true,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.3782,
+        "original_moran_p": 0.002,
+        "residual_morans_I": 0.0849,
+        "residual_moran_p": 0.138,
+        "spatial_control_improvement": 0.2933
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.427,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 2.4098,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Moral Judgment and Attribution of Blame",
+      "independent_variable": "Life Expectancy (2020)",
+      "heatmap_position": [
+        "C4",
+        "D4"
+      ],
+      "coefficient": 0.3916,
+      "standard_error": 0.1617,
+      "confidence_interval": {
+        "lower": 0.0592,
+        "upper": 0.724
+      },
+      "t_value": 2.4218,
+      "p_value": 0.0511,
+      "original_p_value": 0.0227,
+      "fdr_q_value": 0.0511,
+      "significant": false,
+      "robust_se_used": true,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.3782,
+        "original_moran_p": 0.002,
+        "residual_morans_I": 0.0849,
+        "residual_moran_p": 0.138,
+        "spatial_control_improvement": 0.2933
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.1841,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 2.4098,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Personal Experience and Current Situation Sharing",
+      "independent_variable": "ln(GDP per capita (2023))",
+      "heatmap_position": [
+        "C5",
+        "D1"
+      ],
+      "coefficient": 0.0002,
+      "standard_error": 0.1397,
+      "confidence_interval": {
+        "lower": -0.144,
+        "upper": 0.4305
+      },
+      "t_value": 0.0035,
+      "p_value": 0.9972,
+      "original_p_value": 0.9972,
+      "fdr_q_value": 0.9972,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.4981,
+        "original_moran_p": 0.001,
+        "residual_morans_I": 0.2175,
+        "residual_moran_p": 0.029,
+        "spatial_control_improvement": 0.2806
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0,
+        "partial_eta_squared_interpretation": "Negligible (<0.01)",
+        "cohens_f2": 5.3444,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Personal Experience and Current Situation Sharing",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "heatmap_position": [
+        "C5",
+        "D2"
+      ],
+      "coefficient": 0.1419,
+      "standard_error": 0.0914,
+      "confidence_interval": {
+        "lower": 0.6045,
+        "upper": 0.9802
+      },
+      "t_value": 1.259,
+      "p_value": 0.3256,
+      "original_p_value": 0.208,
+      "fdr_q_value": 0.3256,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.4981,
+        "original_moran_p": 0.001,
+        "residual_morans_I": 0.2175,
+        "residual_moran_p": 0.029,
+        "spatial_control_improvement": 0.2806
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0575,
+        "partial_eta_squared_interpretation": "Small (≥0.01)",
+        "cohens_f2": 5.3444,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Personal Experience and Current Situation Sharing",
+      "independent_variable": "Gender Ratio (2020)",
+      "heatmap_position": [
+        "C5",
+        "D3"
+      ],
+      "coefficient": 0.6838,
+      "standard_error": 0.0972,
+      "confidence_interval": {
+        "lower": 0.1205,
+        "upper": 0.5202
+      },
+      "t_value": 7.9487,
+      "p_value": 0.0,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.4981,
+        "original_moran_p": 0.001,
+        "residual_morans_I": 0.2175,
+        "residual_moran_p": 0.029,
+        "spatial_control_improvement": 0.2806
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.7085,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 5.3444,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Personal Experience and Current Situation Sharing",
+      "independent_variable": "Life Expectancy (2020)",
+      "heatmap_position": [
+        "C5",
+        "D4"
+      ],
+      "coefficient": 0.2253,
+      "standard_error": 0.132,
+      "confidence_interval": {
+        "lower": 0.0551,
+        "upper": 0.5976
+      },
+      "t_value": 2.6697,
+      "p_value": 0.0195,
+      "original_p_value": 0.0076,
+      "fdr_q_value": 0.0195,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.4981,
+        "original_moran_p": 0.001,
+        "residual_morans_I": 0.2175,
+        "residual_moran_p": 0.029,
+        "spatial_control_improvement": 0.2806
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.2151,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 5.3444,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Risk Underestimation and Cognitive Bias",
+      "independent_variable": "ln(GDP per capita (2023))",
+      "heatmap_position": [
+        "C6",
+        "D1"
+      ],
+      "coefficient": 0.0181,
+      "standard_error": 0.1554,
+      "confidence_interval": {
+        "lower": -0.2438,
+        "upper": 0.3949
+      },
+      "t_value": 0.2234,
+      "p_value": 0.8818,
+      "original_p_value": 0.8232,
+      "fdr_q_value": 0.8818,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.4972,
+        "original_moran_p": 0.001,
+        "residual_morans_I": -0.1775,
+        "residual_moran_p": 0.095,
+        "spatial_control_improvement": 0.3197
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0019,
+        "partial_eta_squared_interpretation": "Negligible (<0.01)",
+        "cohens_f2": 3.9684,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Risk Underestimation and Cognitive Bias",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "heatmap_position": [
+        "C6",
+        "D2"
+      ],
+      "coefficient": 0.0578,
+      "standard_error": 0.1016,
+      "confidence_interval": {
+        "lower": 0.4344,
+        "upper": 0.8521
+      },
+      "t_value": 0.4533,
+      "p_value": 0.7317,
+      "original_p_value": 0.6504,
+      "fdr_q_value": 0.7317,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.4972,
+        "original_moran_p": 0.001,
+        "residual_morans_I": -0.1775,
+        "residual_moran_p": 0.095,
+        "spatial_control_improvement": 0.3197
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0078,
+        "partial_eta_squared_interpretation": "Negligible (<0.01)",
+        "cohens_f2": 3.9684,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Risk Underestimation and Cognitive Bias",
+      "independent_variable": "Gender Ratio (2020)",
+      "heatmap_position": [
+        "C6",
+        "D3"
+      ],
+      "coefficient": 0.5332,
+      "standard_error": 0.1081,
+      "confidence_interval": {
+        "lower": 0.2765,
+        "upper": 0.721
+      },
+      "t_value": 5.7002,
+      "p_value": 0.0,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.4972,
+        "original_moran_p": 0.001,
+        "residual_morans_I": -0.1775,
+        "residual_moran_p": 0.095,
+        "spatial_control_improvement": 0.3197
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.5555,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 3.9684,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Risk Underestimation and Cognitive Bias",
+      "independent_variable": "Life Expectancy (2020)",
+      "heatmap_position": [
+        "C6",
+        "D4"
+      ],
+      "coefficient": 0.4029,
+      "standard_error": 0.1467,
+      "confidence_interval": {
+        "lower": 0.0748,
+        "upper": 0.678
+      },
+      "t_value": 4.195,
+      "p_value": 0.0002,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0002,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.4972,
+        "original_moran_p": 0.001,
+        "residual_morans_I": -0.1775,
+        "residual_moran_p": 0.095,
+        "spatial_control_improvement": 0.3197
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.4036,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 3.9684,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Social Impact and Public Issue Discussion",
+      "independent_variable": "ln(GDP per capita (2023))",
+      "heatmap_position": [
+        "C7",
+        "D1"
+      ],
+      "coefficient": 0.2021,
+      "standard_error": 0.1947,
+      "confidence_interval": {
+        "lower": -0.1981,
+        "upper": 0.6023
+      },
+      "t_value": 1.0379,
+      "p_value": 0.4099,
+      "original_p_value": 0.3089,
+      "fdr_q_value": 0.4099,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.2731,
+        "original_moran_p": 0.013,
+        "residual_morans_I": 0.0016,
+        "residual_moran_p": 0.368,
+        "spatial_control_improvement": 0.2716
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0398,
+        "partial_eta_squared_interpretation": "Small (≥0.01)",
+        "cohens_f2": 1.527,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Social Impact and Public Issue Discussion",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "heatmap_position": [
+        "C7",
+        "D2"
+      ],
+      "coefficient": 0.6245,
+      "standard_error": 0.1273,
+      "confidence_interval": {
+        "lower": 0.3628,
+        "upper": 0.8863
+      },
+      "t_value": 4.9047,
+      "p_value": 0.0002,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0002,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.2731,
+        "original_moran_p": 0.013,
+        "residual_morans_I": 0.0016,
+        "residual_moran_p": 0.368,
+        "spatial_control_improvement": 0.2716
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.4806,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 1.527,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Social Impact and Public Issue Discussion",
+      "independent_variable": "Gender Ratio (2020)",
+      "heatmap_position": [
+        "C7",
+        "D3"
+      ],
+      "coefficient": 0.2439,
+      "standard_error": 0.1355,
+      "confidence_interval": {
+        "lower": -0.0346,
+        "upper": 0.5224
+      },
+      "t_value": 1.7999,
+      "p_value": 0.1431,
+      "original_p_value": 0.0835,
+      "fdr_q_value": 0.1431,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.2731,
+        "original_moran_p": 0.013,
+        "residual_morans_I": 0.0016,
+        "residual_moran_p": 0.368,
+        "spatial_control_improvement": 0.2716
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.1108,
+        "partial_eta_squared_interpretation": "Medium (≥0.06)",
+        "cohens_f2": 1.527,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Social Impact and Public Issue Discussion",
+      "independent_variable": "Life Expectancy (2020)",
+      "heatmap_position": [
+        "C7",
+        "D4"
+      ],
+      "coefficient": 0.3563,
+      "standard_error": 0.1839,
+      "confidence_interval": {
+        "lower": -0.0217,
+        "upper": 0.7343
+      },
+      "t_value": 1.9374,
+      "p_value": 0.1145,
+      "original_p_value": 0.0636,
+      "fdr_q_value": 0.1145,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.2731,
+        "original_moran_p": 0.013,
+        "residual_morans_I": 0.0016,
+        "residual_moran_p": 0.368,
+        "spatial_control_improvement": 0.2716
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.1262,
+        "partial_eta_squared_interpretation": "Medium (≥0.06)",
+        "cohens_f2": 1.527,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Support, Encouragement and Humanitarian Care",
+      "independent_variable": "ln(GDP per capita (2023))",
+      "heatmap_position": [
+        "C8",
+        "D1"
+      ],
+      "coefficient": 0.243,
+      "standard_error": 0.2391,
+      "confidence_interval": {
+        "lower": -0.2485,
+        "upper": 0.7346
+      },
+      "t_value": 1.0164,
+      "p_value": 0.4099,
+      "original_p_value": 0.3188,
+      "fdr_q_value": 0.4099,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.0385,
+        "original_moran_p": 0.253,
+        "residual_morans_I": -0.011,
+        "residual_moran_p": 0.373,
+        "spatial_control_improvement": 0.0276
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0382,
+        "partial_eta_squared_interpretation": "Small (≥0.01)",
+        "cohens_f2": 0.6754,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Support, Encouragement and Humanitarian Care",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "heatmap_position": [
+        "C8",
+        "D2"
+      ],
+      "coefficient": 0.5018,
+      "standard_error": 0.1564,
+      "confidence_interval": {
+        "lower": 0.1804,
+        "upper": 0.8233
+      },
+      "t_value": 3.2091,
+      "p_value": 0.0115,
+      "original_p_value": 0.0035,
+      "fdr_q_value": 0.0115,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.0385,
+        "original_moran_p": 0.253,
+        "residual_morans_I": -0.011,
+        "residual_moran_p": 0.373,
+        "spatial_control_improvement": 0.0276
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.2837,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 0.6754,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Support, Encouragement and Humanitarian Care",
+      "independent_variable": "Gender Ratio (2020)",
+      "heatmap_position": [
+        "C8",
+        "D3"
+      ],
+      "coefficient": 0.3411,
+      "standard_error": 0.1664,
+      "confidence_interval": {
+        "lower": -0.001,
+        "upper": 0.6831
+      },
+      "t_value": 2.0497,
+      "p_value": 0.0959,
+      "original_p_value": 0.0506,
+      "fdr_q_value": 0.0959,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.0385,
+        "original_moran_p": 0.253,
+        "residual_morans_I": -0.011,
+        "residual_moran_p": 0.373,
+        "spatial_control_improvement": 0.0276
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.1391,
+        "partial_eta_squared_interpretation": "Medium (≥0.06)",
+        "cohens_f2": 0.6754,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Support, Encouragement and Humanitarian Care",
+      "independent_variable": "Life Expectancy (2020)",
+      "heatmap_position": [
+        "C8",
+        "D4"
+      ],
+      "coefficient": -0.1507,
+      "standard_error": 0.2258,
+      "confidence_interval": {
+        "lower": -0.6149,
+        "upper": 0.3135
+      },
+      "t_value": -0.6672,
+      "p_value": 0.6045,
+      "original_p_value": 0.5105,
+      "fdr_q_value": 0.6045,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "OLS",
+        "original_morans_I": 0.0385,
+        "original_moran_p": 0.253,
+        "residual_morans_I": -0.011,
+        "residual_moran_p": 0.373,
+        "spatial_control_improvement": 0.0276
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0168,
+        "partial_eta_squared_interpretation": "Small (≥0.01)",
+        "cohens_f2": 0.6754,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      }
+    },
+    {
+      "dependent_variable": "Worry, Fear and Anxiety Emotions",
+      "independent_variable": "ln(GDP per capita (2023))",
+      "heatmap_position": [
+        "C9",
+        "D1"
+      ],
+      "coefficient": 0.0121,
+      "standard_error": 0.158,
+      "confidence_interval": {
+        "lower": -0.4303,
+        "upper": 0.2191
+      },
+      "t_value": 0.1617,
+      "p_value": 0.8965,
+      "original_p_value": 0.8716,
+      "fdr_q_value": 0.8965,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.5934,
+        "original_moran_p": 0.001,
+        "residual_morans_I": -0.0477,
+        "residual_moran_p": 0.462,
+        "spatial_control_improvement": 0.5456
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.001,
+        "partial_eta_squared_interpretation": "Negligible (<0.01)",
+        "cohens_f2": 4.8148,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Worry, Fear and Anxiety Emotions",
+      "independent_variable": "HIV Incidence Rate (2020)",
+      "heatmap_position": [
+        "C9",
+        "D2"
+      ],
+      "coefficient": -0.1281,
+      "standard_error": 0.1033,
+      "confidence_interval": {
+        "lower": 0.4504,
+        "upper": 0.8751
+      },
+      "t_value": -1.0874,
+      "p_value": 0.3834,
+      "original_p_value": 0.2769,
+      "fdr_q_value": 0.3834,
+      "significant": false,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.5934,
+        "original_moran_p": 0.001,
+        "residual_morans_I": -0.0477,
+        "residual_moran_p": 0.462,
+        "spatial_control_improvement": 0.5456
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.0435,
+        "partial_eta_squared_interpretation": "Small (≥0.01)",
+        "cohens_f2": 4.8148,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Worry, Fear and Anxiety Emotions",
+      "independent_variable": "Gender Ratio (2020)",
+      "heatmap_position": [
+        "C9",
+        "D3"
+      ],
+      "coefficient": 0.486,
+      "standard_error": 0.1099,
+      "confidence_interval": {
+        "lower": 0.3231,
+        "upper": 0.775
+      },
+      "t_value": 5.4092,
+      "p_value": 0.0,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.5934,
+        "original_moran_p": 0.001,
+        "residual_morans_I": -0.0477,
+        "residual_moran_p": 0.462,
+        "spatial_control_improvement": 0.5456
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.5295,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 4.8148,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    },
+    {
+      "dependent_variable": "Worry, Fear and Anxiety Emotions",
+      "independent_variable": "Life Expectancy (2020)",
+      "heatmap_position": [
+        "C9",
+        "D4"
+      ],
+      "coefficient": 0.4201,
+      "standard_error": 0.1492,
+      "confidence_interval": {
+        "lower": 0.0819,
+        "upper": 0.6952
+      },
+      "t_value": 4.6938,
+      "p_value": 0.0,
+      "original_p_value": 0.0,
+      "fdr_q_value": 0.0,
+      "significant": true,
+      "robust_se_used": false,
+      "spatial_diagnostics": {
+        "selected_model": "Spatial Lag",
+        "original_morans_I": 0.5934,
+        "original_moran_p": 0.001,
+        "residual_morans_I": -0.0477,
+        "residual_moran_p": 0.462,
+        "spatial_control_improvement": 0.5456
+      },
+      "effect_sizes": {
+        "partial_eta_squared": 0.4587,
+        "partial_eta_squared_interpretation": "Large (≥0.14)",
+        "cohens_f2": 4.8148,
+        "cohens_f2_interpretation": "Large (≥0.35)"
+      },
+      "spatial_model_details": {
+        "model_type": "Spatial Lag",
+        "coefficient_standard_error": null,
+        "coefficient_confidence_interval": {
+          "lower": null,
+          "upper": null
+        },
+        "rho_standard_error": null,
+        "rho_confidence_interval": {
+          "lower": null,
+          "upper": null
+        }
+      }
+    }
+  ],
+  "heteroskedasticity_validation": {
+    "summary": {
+      "models_tested": 9,
+      "heteroskedasticity_detected": 2
+    },
+    "detailed_results": [
+      {
+        "dependent_variable": "Disease Knowledge and Transmission Discussion",
+        "lm_pvalue": 0.0126,
+        "heteroskedasticity_detected": true
+      },
+      {
+        "dependent_variable": "Humor, Banter and Ironic Expression",
+        "lm_pvalue": 0.5971,
+        "heteroskedasticity_detected": false
+      },
+      {
+        "dependent_variable": "Information Sources and Credibility Discussion",
+        "lm_pvalue": 0.1131,
+        "heteroskedasticity_detected": false
+      },
+      {
+        "dependent_variable": "Moral Judgment and Attribution of Blame",
+        "lm_pvalue": 0.0077,
+        "heteroskedasticity_detected": true
+      },
+      {
+        "dependent_variable": "Personal Experience and Current Situation Sharing",
+        "lm_pvalue": 0.2,
+        "heteroskedasticity_detected": false
+      },
+      {
+        "dependent_variable": "Risk Underestimation and Cognitive Bias",
+        "lm_pvalue": 0.0962,
+        "heteroskedasticity_detected": false
+      },
+      {
+        "dependent_variable": "Social Impact and Public Issue Discussion",
+        "lm_pvalue": 0.6189,
+        "heteroskedasticity_detected": false
+      },
+      {
+        "dependent_variable": "Support, Encouragement and Humanitarian Care",
+        "lm_pvalue": 0.7627,
+        "heteroskedasticity_detected": false
+      },
+      {
+        "dependent_variable": "Worry, Fear and Anxiety Emotions",
+        "lm_pvalue": 0.3587,
+        "heteroskedasticity_detected": false
+      }
+    ]
+  },
+  "linearity_validation": {
+    "summary": {
+      "models_tested": 9,
+      "linearity_supported": 8
+    },
+    "detailed_results": [
+      {
+        "dependent_variable": "Disease Knowledge and Transmission Discussion",
+        "reset_p_value": 0.1061,
+        "linearity_supported": true
+      },
+      {
+        "dependent_variable": "Humor, Banter and Ironic Expression",
+        "reset_p_value": 0.2796,
+        "linearity_supported": true
+      },
+      {
+        "dependent_variable": "Information Sources and Credibility Discussion",
+        "reset_p_value": 0.9389,
+        "linearity_supported": true
+      },
+      {
+        "dependent_variable": "Moral Judgment and Attribution of Blame",
+        "reset_p_value": 0.1723,
+        "linearity_supported": true
+      },
+      {
+        "dependent_variable": "Personal Experience and Current Situation Sharing",
+        "reset_p_value": 0.0138,
+        "linearity_supported": false
+      },
+      {
+        "dependent_variable": "Risk Underestimation and Cognitive Bias",
+        "reset_p_value": 0.3814,
+        "linearity_supported": true
+      },
+      {
+        "dependent_variable": "Social Impact and Public Issue Discussion",
+        "reset_p_value": 0.3634,
+        "linearity_supported": true
+      },
+      {
+        "dependent_variable": "Support, Encouragement and Humanitarian Care",
+        "reset_p_value": 0.8599,
+        "linearity_supported": true
+      },
+      {
+        "dependent_variable": "Worry, Fear and Anxiety Emotions",
+        "reset_p_value": 0.6233,
+        "linearity_supported": true
+      }
+    ]
+  }
+}
